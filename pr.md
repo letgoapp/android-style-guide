@@ -4,6 +4,4 @@
 #### Any background context you want to provide?
 #### What are the relevant tickets?
 #### Screenshots (if appropriate)
-#### Questions:
-- Is there a blog post?
-- Does the knowledge base need an update?
+#### Questions: (if appropriate)
