@@ -1,7 +1,7 @@
 <!-- 
   Letgo Android Codestyle
 
-  Version 1.0.2
+  Version 1.0.3
 -->
 
 <code_scheme name="LetgoAndroid">
@@ -87,10 +87,16 @@
   <JavaCodeStyleSettings>
     <option name="CLASS_NAMES_IN_JAVADOC" value="3" />
   </JavaCodeStyleSettings>
+  <JetCodeStyleSettings>
+    <option name="CONTINUATION_INDENT_IN_PARAMETER_LISTS" value="false" />
+    <option name="CONTINUATION_INDENT_IN_ARGUMENT_LISTS" value="false" />
+    <option name="CONTINUATION_INDENT_FOR_EXPRESSION_BODIES" value="false" />
+    <option name="CONTINUATION_INDENT_FOR_CHAINED_CALLS" value="false" />
+    <option name="CONTINUATION_INDENT_IN_SUPERTYPE_LISTS" value="false" />
+    <option name="CONTINUATION_INDENT_IN_IF_CONDITIONS" value="false" />
+    <option name="WRAP_EXPRESSION_BODY_FUNCTIONS" value="1" />
+  </JetCodeStyleSettings>
   <Objective-C-extensions>
-    <option name="GENERATE_INSTANCE_VARIABLES_FOR_PROPERTIES" value="ASK" />
-    <option name="RELEASE_STYLE" value="IVAR" />
-    <option name="TYPE_QUALIFIERS_PLACEMENT" value="BEFORE" />
     <file>
       <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Import" />
       <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Macro" />
@@ -116,7 +122,10 @@
     </extensions>
   </Objective-C-extensions>
   <XML>
+    <option name="XML_KEEP_LINE_BREAKS" value="false" />
     <option name="XML_KEEP_BLANK_LINES" value="1" />
+    <option name="XML_ALIGN_ATTRIBUTES" value="false" />
+    <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="true" />
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <ADDITIONAL_INDENT_OPTIONS fileType="php">
@@ -369,5 +378,13 @@
         </section>
       </rules>
     </arrangement>
+  </codeStyleSettings>
+  <codeStyleSettings language="kotlin">
+    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
+    <option name="CALL_PARAMETERS_WRAP" value="1" />
+    <option name="METHOD_PARAMETERS_WRAP" value="1" />
+    <option name="EXTENDS_LIST_WRAP" value="1" />
+    <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
+    <option name="ASSIGNMENT_WRAP" value="1" />
   </codeStyleSettings>
 </code_scheme>
